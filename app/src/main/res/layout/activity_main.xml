@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/main_button_jishui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计算个人所得税" />
+
+    <Button
+        android:id="@+id/main_button_daikuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="银行贷款计算" />
+
+    <Button
+        android:id="@+id/main_button_24dian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="24点计算" />
+
+
+</LinearLayout>
